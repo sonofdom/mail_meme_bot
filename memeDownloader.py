@@ -43,12 +43,11 @@ def download_img(url_list,MEME_DOWNLOADS):
                     print("image obtained")
             else:
                 print("Image not available")
-            print(r.status_code)
 
 def main():
     MEME_DOWNLOADS = base_directory()
-    url_list = url_list()
-    download_img(url_list,MEME_DOWNLOADS)
+    list_of_url = url_list()
+    download_img(list_of_url,MEME_DOWNLOADS)
 
 if __name__ == "__main__":
     main()

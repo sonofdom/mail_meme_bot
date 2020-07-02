@@ -15,9 +15,10 @@ def choose_meme():
 
 def main():
     #run scraper
-    #ms_main
+    ms_main()
     #run downloader
-    md_main
+    md_main()
+    print("Memes Collected")
     #run meme chooser
     img_path,img_name = choose_meme()
     print(img_name)

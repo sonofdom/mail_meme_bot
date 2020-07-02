@@ -43,7 +43,6 @@ def add_to_file(links):
 
 def main():
     links = parse_and_extract(url)
-    print(links)
     add_to_file(links)
 
 if __name__ == "__main__":
